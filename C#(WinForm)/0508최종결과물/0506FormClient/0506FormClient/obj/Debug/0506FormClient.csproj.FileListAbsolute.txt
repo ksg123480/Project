@@ -1,0 +1,35 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\bin\Debug\0506FormClient.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\bin\Debug\0506FormClient.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\bin\Debug\0506FormClient.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.AddMemberForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.LoginForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.Properties.Resources.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\obj\Debug\0506FormClient.csproj.GenerateResource.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\obj\Debug\0506FormClient.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\obj\Debug\0506FormClient.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\obj\Debug\0506FormClient.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506FormClient\0506FormClient\obj\Debug\0506FormClient.csprojAssemblyReference.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\bin\Debug\0506FormClient.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\bin\Debug\0506FormClient.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\bin\Debug\0506FormClient.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.AddMemberForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.LoginForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.Properties.Resources.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\obj\Debug\0506FormClient.csproj.GenerateResource.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\obj\Debug\0506FormClient.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\obj\Debug\0506FormClient.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\obj\Debug\0506FormClient.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.ChatForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506FormClient\0506FormClient\obj\Debug\0506FormClient.csprojAssemblyReference.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\bin\Debug\0506FormClient.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\bin\Debug\0506FormClient.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\bin\Debug\0506FormClient.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\obj\Debug\0506FormClient.csprojAssemblyReference.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.AddMemberForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.ChatForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.LoginForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\obj\Debug\_0506FormClient.Properties.Resources.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\obj\Debug\0506FormClient.csproj.GenerateResource.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\obj\Debug\0506FormClient.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\obj\Debug\0506FormClient.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508최종결과물\0506FormClient\0506FormClient\obj\Debug\0506FormClient.pdb

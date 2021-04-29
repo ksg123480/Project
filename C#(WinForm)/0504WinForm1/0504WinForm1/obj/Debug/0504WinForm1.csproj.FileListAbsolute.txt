@@ -1,0 +1,12 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\bin\Debug\0504WinForm1.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\bin\Debug\0504WinForm1.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\bin\Debug\0504WinForm1.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\obj\Debug\_0504WinForm1.Properties.Resources.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\obj\Debug\0504WinForm1.csproj.GenerateResource.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\obj\Debug\0504WinForm1.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\obj\Debug\0504WinForm1.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\obj\Debug\0504WinForm1.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\obj\Debug\_0504WinForm1.Form1.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\obj\Debug\_0504WinForm1.KnowColor.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\obj\Debug\_0504WinForm1.MyColorDialog.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504WinForm1\0504WinForm1\obj\Debug\0504WinForm1.csprojAssemblyReference.cache

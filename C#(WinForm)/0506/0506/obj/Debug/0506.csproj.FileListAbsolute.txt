@@ -1,0 +1,7 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506\0506\bin\Debug\0506.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506\0506\bin\Debug\0506.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506\0506\bin\Debug\0506.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506\0506\obj\Debug\0506.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506\0506\obj\Debug\0506.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506\0506\obj\Debug\0506.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506\0506\obj\Debug\0506.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Client\0506Client\bin\Debug\0506Client.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Client\0506Client\bin\Debug\0506Client.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Client\0506Client\bin\Debug\0506Client.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Client\0506Client\obj\Debug\0506Client.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Client\0506Client\obj\Debug\0506Client.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Client\0506Client\obj\Debug\0506Client.pdb

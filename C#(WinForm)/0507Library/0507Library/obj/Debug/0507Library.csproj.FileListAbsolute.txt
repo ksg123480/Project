@@ -1,0 +1,5 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507Library\0507Library\bin\Debug\0507Library.dll
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507Library\0507Library\bin\Debug\0507Library.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507Library\0507Library\obj\Debug\0507Library.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507Library\0507Library\obj\Debug\0507Library.dll
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507Library\0507Library\obj\Debug\0507Library.pdb

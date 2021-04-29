@@ -1,0 +1,39 @@
+Form1.cs : form 의상속구조,partial, InitalizeComponet
+Form1.Designer.cs : partial,
+
+/Win32API의 BeginPaint()로 생성한 dc
+            Graphics grfx = e.Graphics;
+            SolidBrush br = new SolidBrush(Color.HotPink);
+            grfx.DrawString(StrText, this.Font, br, 10, 7);//DrawString 문자출력
+
+Graphics 객체 : 화면 출력도구
+ ex) Graphics gx = e.Graphics;
+                SolidBrush br = new SolidBrush(this.ForeColor);
+                Font font = new Font("돋움", 20);
+
+                gx.DrawString("글자색 변경", font, br, 10, 100);
+
+ ex)Graphics gx = pictureBox1.CreateGraphics();
+            // button3 클릭시 피쳐박스 에 그림을 그릴수있는 객체 생성
+
+색상 다이얼로그 
+ //색상 다이얼로그 코드
+            ColorDialog colorDlg = new ColorDialog();
+            colorDlg.AllowFullOpen = false;
+            colorDlg.ShowHelp = true;
+
+            colorDlg.Color = this.BackColor;
+            if (colorDlg.ShowDialog() == DialogResult.OK)
+                return colorDlg.Color; // 사용자가 선택한 컬러
+            else
+                return Color.Black;  //취소시 블랙
+
+ //RGB값 출력  textBox에 RGB 값 출력
+            textBox1.Text = color.R.ToString() ;
+            textBox2.Text = color.G.ToString();
+            textBox3.Text = color.B.ToString();
+
+//L = R  Brush = Color;
+//Color를 Brush 타입으로 형변환
+            Brush brush = new SolidBrush (
+                Color.FromName(arr.GetValue(e.Index).ToString()));

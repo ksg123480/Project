@@ -1,0 +1,10 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507DLL\0507DLL\bin\Debug\0507DLL.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507DLL\0507DLL\bin\Debug\0507DLL.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507DLL\0507DLL\bin\Debug\0507DLL.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507DLL\0507DLL\obj\Debug\_0507DLL.Form1.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507DLL\0507DLL\obj\Debug\_0507DLL.Properties.Resources.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507DLL\0507DLL\obj\Debug\0507DLL.csproj.GenerateResource.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507DLL\0507DLL\obj\Debug\0507DLL.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507DLL\0507DLL\obj\Debug\0507DLL.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507DLL\0507DLL\obj\Debug\0507DLL.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507DLL\0507DLL\obj\Debug\0507DLL.csprojAssemblyReference.cache

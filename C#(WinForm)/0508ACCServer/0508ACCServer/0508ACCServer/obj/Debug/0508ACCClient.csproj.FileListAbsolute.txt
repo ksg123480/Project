@@ -1,0 +1,32 @@
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\bin\Debug\0508ACCServer.exe.config
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\bin\Debug\0508ACCServer.exe
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\bin\Debug\0508ACCServer.pdb
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\0508ACCClient.csprojAssemblyReference.cache
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\_0508ACCServer.AccAddForm.resources
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\_0508ACCServer.MainForm.resources
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\_0508ACCServer.Properties.Resources.resources
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\0508ACCClient.csproj.GenerateResource.cache
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\0508ACCServer.exe
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\0508ACCServer.pdb
+C:\Users\ksg12\OneDrive\문서\카카오톡 받은 파일\0508ACCServer (2)\0508ACCServer\bin\Debug\0508ACCServer.exe.config
+C:\Users\ksg12\OneDrive\문서\카카오톡 받은 파일\0508ACCServer (2)\0508ACCServer\bin\Debug\0508ACCServer.exe
+C:\Users\ksg12\OneDrive\문서\카카오톡 받은 파일\0508ACCServer (2)\0508ACCServer\bin\Debug\0508ACCServer.pdb
+C:\Users\ksg12\OneDrive\문서\카카오톡 받은 파일\0508ACCServer (2)\0508ACCServer\obj\Debug\_0508ACCServer.AccAddForm.resources
+C:\Users\ksg12\OneDrive\문서\카카오톡 받은 파일\0508ACCServer (2)\0508ACCServer\obj\Debug\_0508ACCServer.MainForm.resources
+C:\Users\ksg12\OneDrive\문서\카카오톡 받은 파일\0508ACCServer (2)\0508ACCServer\obj\Debug\_0508ACCServer.Properties.Resources.resources
+C:\Users\ksg12\OneDrive\문서\카카오톡 받은 파일\0508ACCServer (2)\0508ACCServer\obj\Debug\0508ACCClient.csproj.GenerateResource.cache
+C:\Users\ksg12\OneDrive\문서\카카오톡 받은 파일\0508ACCServer (2)\0508ACCServer\obj\Debug\0508ACCClient.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\문서\카카오톡 받은 파일\0508ACCServer (2)\0508ACCServer\obj\Debug\0508ACCServer.exe
+C:\Users\ksg12\OneDrive\문서\카카오톡 받은 파일\0508ACCServer (2)\0508ACCServer\obj\Debug\0508ACCServer.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\bin\Debug\0508ACCServer.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\bin\Debug\0508ACCServer.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\bin\Debug\0508ACCServer.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\obj\Debug\_0508ACCServer.AccAddForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\obj\Debug\_0508ACCServer.MainForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\obj\Debug\_0508ACCServer.Properties.Resources.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\obj\Debug\0508ACCClient.csproj.GenerateResource.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\obj\Debug\0508ACCClient.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\obj\Debug\0508ACCServer.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\obj\Debug\0508ACCServer.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\obj\Debug\_0508ACCServer.AccIOForm.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508ACCServer\0508ACCServer\obj\Debug\0508ACCClient.csprojAssemblyReference.cache

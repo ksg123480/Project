@@ -1,0 +1,13 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\bin\Debug\0507UseLibrary.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\bin\Debug\0507UseLibrary.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\bin\Debug\0507UseLibrary.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\bin\Debug\0507Library.dll
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\bin\Debug\0507Library.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\obj\Debug\0507UseLibrary.csprojAssemblyReference.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\obj\Debug\_0507UseLibrary.Properties.Resources.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\obj\Debug\0507UseLibrary.csproj.GenerateResource.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\obj\Debug\0507UseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\obj\Debug\0507UseLibrary.csproj.CopyComplete
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\obj\Debug\0507UseLibrary.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\obj\Debug\0507UseLibrary.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507UseLibrary\0507UseLibrary\obj\Debug\_0507UseLibrary.Form1.resources

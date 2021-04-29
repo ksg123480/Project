@@ -1,0 +1,9 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504_1\0504_1\bin\Debug\0504_1.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504_1\0504_1\bin\Debug\0504_1.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504_1\0504_1\bin\Debug\0504_1.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504_1\0504_1\obj\Debug\0504_1.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504_1\0504_1\obj\Debug\0504_1.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504_1\0504_1\obj\Debug\0504_1.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504_1\0504_1\obj\Debug\_0504_1.MyForm1.resources
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504_1\0504_1\obj\Debug\0504_1.csproj.GenerateResource.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0504_1\0504_1\obj\Debug\0504_1.csprojAssemblyReference.cache

@@ -1,0 +1,5 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\WbServer\WbServer\WbServer\bin\Debug\WbServer.dll
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\WbServer\WbServer\WbServer\bin\Debug\WbServer.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\WbServer\WbServer\WbServer\obj\Debug\WbServer.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\WbServer\WbServer\WbServer\obj\Debug\WbServer.dll
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\WbServer\WbServer\WbServer\obj\Debug\WbServer.pdb

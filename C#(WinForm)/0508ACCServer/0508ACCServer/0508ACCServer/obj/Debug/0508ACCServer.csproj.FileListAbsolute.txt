@@ -1,0 +1,9 @@
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\bin\Debug\0508ACCServer.exe.config
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\bin\Debug\0508ACCServer.exe
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\bin\Debug\0508ACCServer.pdb
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\_0508ACCServer.AccAddForm.resources
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\_0508ACCServer.MainForm.resources
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\_0508ACCServer.Properties.Resources.resources
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\0508ACCServer.csproj.GenerateResource.cache
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\0508ACCServer.exe
+C:\Users\H\Desktop\bit\0508ACCServer\0508ACCServer\obj\Debug\0508ACCServer.pdb

@@ -1,0 +1,24 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Server\0506Server\bin\Debug\0506Server.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Server\0506Server\bin\Debug\0506Server.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Server\0506Server\bin\Debug\0506Server.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Server\0506Server\obj\Debug\0506Server.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Server\0506Server\obj\Debug\0506Server.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Server\0506Server\obj\Debug\0506Server.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0506Server\0506Server\obj\Debug\0506Server.csprojAssemblyReference.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506Server\0506Server\bin\Debug\0506Server.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506Server\0506Server\bin\Debug\0506Server.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506Server\0506Server\bin\Debug\0506Server.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506Server\0506Server\obj\Debug\0506Server.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506Server\0506Server\obj\Debug\0506Server.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506Server\0506Server\obj\Debug\0506Server.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506Server\0506Server\bin\Debug\WbServer.dll
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506Server\0506Server\bin\Debug\WbServer.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0507 어제코드\0506Server\0506Server\obj\Debug\0506Server.csproj.CopyComplete
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508Server\0506Server\obj\Debug\0506Server.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508Server\0506Server\obj\Debug\0506Server.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508Server\0506Server\obj\Debug\0506Server.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508Server\0506Server\bin\Debug\0506Server.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508Server\0506Server\bin\Debug\0506Server.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508Server\0506Server\bin\Debug\0506Server.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508Server\0506Server\obj\Debug\0506Server.csproj.CopyComplete
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#(WinForm)\0508ACCServer\0508Server\0506Server\obj\Debug\0506Server.csprojAssemblyReference.cache
