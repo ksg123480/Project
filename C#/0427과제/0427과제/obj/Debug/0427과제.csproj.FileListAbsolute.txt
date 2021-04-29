@@ -1,0 +1,6 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427과제\0427과제\obj\Debug\0427과제.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427과제\0427과제\bin\Debug\0427과제.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427과제\0427과제\bin\Debug\0427과제.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427과제\0427과제\bin\Debug\0427과제.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427과제\0427과제\obj\Debug\0427과제.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427과제\0427과제\obj\Debug\0427과제.pdb

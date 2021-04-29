@@ -1,0 +1,6 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428컬렉션\0428컬렉션\obj\Debug\0428컬렉션.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428컬렉션\0428컬렉션\bin\Debug\0428컬렉션.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428컬렉션\0428컬렉션\bin\Debug\0428컬렉션.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428컬렉션\0428컬렉션\bin\Debug\0428컬렉션.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428컬렉션\0428컬렉션\obj\Debug\0428컬렉션.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428컬렉션\0428컬렉션\obj\Debug\0428컬렉션.pdb

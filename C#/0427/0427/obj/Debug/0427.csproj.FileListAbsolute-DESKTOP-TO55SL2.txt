@@ -1,0 +1,6 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427\0427\bin\Debug\0427.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427\0427\bin\Debug\0427.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427\0427\obj\Debug\0427.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427\0427\obj\Debug\0427.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427\0427\obj\Debug\0427.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0427\0427\obj\Debug\0427.csprojAssemblyReference.cache

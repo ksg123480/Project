@@ -1,0 +1,6 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428MiniProject\0428MiniProject\obj\Debug\0428MiniProject.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428MiniProject\0428MiniProject\bin\Debug\0428MiniProject.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428MiniProject\0428MiniProject\bin\Debug\0428MiniProject.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428MiniProject\0428MiniProject\bin\Debug\0428MiniProject.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428MiniProject\0428MiniProject\obj\Debug\0428MiniProject.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428MiniProject\0428MiniProject\obj\Debug\0428MiniProject.pdb

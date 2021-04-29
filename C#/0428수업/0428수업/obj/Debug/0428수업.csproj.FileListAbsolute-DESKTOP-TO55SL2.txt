@@ -1,0 +1,7 @@
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428수업\0428수업\obj\Debug\0428수업.csproj.CoreCompileInputs.cache
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428수업\0428수업\bin\Debug\0428수업.exe.config
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428수업\0428수업\bin\Debug\0428수업.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428수업\0428수업\bin\Debug\0428수업.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428수업\0428수업\obj\Debug\0428수업.exe
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428수업\0428수업\obj\Debug\0428수업.pdb
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\C#\0428수업\0428수업\obj\Debug\0428수업.csprojAssemblyReference.cache
