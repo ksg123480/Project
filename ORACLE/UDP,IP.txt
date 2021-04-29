@@ -1,0 +1,13 @@
+UDP/IP
+
+Server                                                 Client
+1. 소캣 생성 socket                               1.소캣생성 socket
+
+
+bind()
+
+2. 통신                                                2.sendto
+   recvfrom
+                                                         3.recvfrom
+   sendo
+3. 소켓종료   closesocket                         4.closesocket

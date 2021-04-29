@@ -1,0 +1,4 @@
+﻿  mydb.cpp
+  start.cpp
+C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\ORACLE\0417\0417\start.cpp(7,6): error C3861: 'mydb_DBConnect': 식별자를 찾을 수 없습니다.
+  코드를 생성하고 있습니다...

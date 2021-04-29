@@ -1,0 +1,5 @@
+select count(*) from emp; //emp 테이블의 전체 개수
+
+equl join : 
+
+non - equl join : 이퀄 조인이 아니라 다

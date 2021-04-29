@@ -1,0 +1,303 @@
+1.테이블 명 : STAR_WARS (영화 정보를 저장한다)
+        컬럼 : - EPISODE_ID : 에피소드 아이디로써, 숫자형 타입으로 기본 키가 된다.
+               - EPISODE_NAME : 에피소드에 따른 영화 제목이며, 가변 길이 문자형 타입(50 BYTE)이다.
+               - OPEN_YEAR : 개봉년도로써, 역시 숫자형 타입이다.
+<<정답>> --------------------------------------------------------------------------------------------------
+  CREATE TABLE STAR_WARS (
+           EPISODE_ID    NUMBER(5,0) NOT NULL, 
+	         EPISODE_NAME  VARCHAR2(50 BYTE), 
+	         OPEN_YEAR     NUMBER(5,0), 
+	         CONSTRAINT STAR_WARS_PK PRIMARY KEY (EPISODE_ID));
+2. 테이블 명 : CHARACTERS ( 등장인물 정보를 저장한다)
+        컬럼 : - CHARACTER_ID   : 등장인물 아이디로써, 숫자형 타입(5자리)으로 기본 키가 된다.
+               - CHARACTER_NAME : 등장인물 명으로 가변 길이 문자형 타입(30 BYTE)이다.
+               - MASTER_ID      : 등장인물이 제다이일 경우 마스터 아이디 값을 가진다. 역시 숫자형(5자리)이다.
+               - ROLE_ID        : 등장인물의 역할 아이디로써, INTEGER 타입이다.
+               - EMAIL          : 등장인물의 이메일 주소로 가변길이 문자형 타입(40 BYTE)이다.
+<<정답>> --------------------------------------------------------------------------------------------------
+
+  CREATE TABLE CHARACTERS (
+         CHARACTER_ID    NUMBER NOT NULL, 
+	       CHARACTER_NAME  VARCHAR2(30 BYTE), 
+	       MASTER_ID       NUMBER(5,0), 
+	       ROLE_ID         NUMBER(5,0), 
+	       EMAIL           VARCHAR2(40 BYTE), 
+	       CONSTRAINT CHARACTERS_PK PRIMARY KEY (CHARACTER_ID));
+3. 테이블 명 : - CASTING ( 등장인물과 실제 배우의 정보를 저장한다)
+        컬럼 : - EPISODE_ID: 에피소드 아이디로써, 숫자형 타입(5자리)으로 기본 키가 된다.
+               - CHARACTER_ID: 등장인물 아이디로써, 숫자형 타입(5자리)이며 참조 키가 된다.
+               - REAL_NAME : 등장인물의 실제 이름으로, 가변길이 문자형 타입(30 BYTE)이다.
+<<정답>> --------------------------------------------------------------------------------------------------
+
+  CREATE TABLE CASTING (
+         EPISODE_ID    NUMBER(5,0)  NOT NULL, 
+	       CHARACTER_ID  NUMBER(5,0)  NOT NULL,  
+	       REAL_NAME     VARCHAR2(30 BYTE),
+	       CONSTRAINT CASTING_PK PRIMARY KEY (EPISODE_ID, CHARACTER_ID));               
+4. INSERT 문을 사용하여 STAR_WARS 테이블에 다음과 같이 데이터를 저장해보자. 
+
+EPISODE_ID  EPISODE_NAME                                 OPEN_YEAR              
+----------- ---------------------------------------  -------------- 
+4              새로운 희망(A New Hope)                       1977                   
+5              제국의 역습(The Empire Strikes Back)          1980                   
+6              제다이의 귀환(Return of the Jedi)             1983                   
+1              보이지 않는 위험(The Phantom Menace)          1999                   
+2              클론의 습격(Attack of the Clones)             2002                   
+3              시스의 복수(Revenge of the Sith)              2005
+
+<<정답>> --------------------------------------------------------------------------------------------------
+INSERT INTO STAR_WARS ( EPISODE_ID, EPISODE_NAME, OPEN_YEAR)
+VALUES ( 4, '새로운 희망(A New Hope)', 1977);
+
+INSERT INTO STAR_WARS ( EPISODE_ID, EPISODE_NAME, OPEN_YEAR)
+VALUES ( 5, '제국의 역습(The Empire Strikes Back)', 1980);
+
+INSERT INTO STAR_WARS ( EPISODE_ID, EPISODE_NAME, OPEN_YEAR)
+VALUES ( 6, '제다이의 귀환(Return of the Jedi)', 1983);
+
+INSERT INTO STAR_WARS ( EPISODE_ID, EPISODE_NAME, OPEN_YEAR)
+VALUES ( 1, '보이지 않는 위험(The Phantom Menace)', 1999);
+
+INSERT INTO STAR_WARS ( EPISODE_ID, EPISODE_NAME, OPEN_YEAR)
+VALUES ( 2, '클론의 습격(Attack of the Clones)', 2002);
+
+INSERT INTO STAR_WARS ( EPISODE_ID, EPISODE_NAME, OPEN_YEAR)
+VALUES ( 3, '시스의 복수(Revenge of the Sith)', 2005);
+
+COMMIT;
+
+5. CHARACTERS 테이블에 다음의 데이터를 저장해보자.
+
+CHARACTER_ID    CHARACTER_NAME       EMAIL                                    
+--------------- -------------------- ------------------------ 
+1                 루크 스카이워커          luke@jedai.com                           
+2                 한 솔로                  solo@alliance.com                        
+3                 레이아 공주              leia@alliance.com                        
+4                 오비완 케노비            Obi-Wan@jedai.com                        
+5                 다쓰 베이더              vader@sith.com                           
+6                 다쓰 베이더(목소리)       Chewbacca@alliance.com                   
+7                 C-3PO                   c3po@alliance.com                        
+8                 R2-D2                   r2d2@alliance.com                        
+9                 츄바카                   Chewbacca@alliance.com                   
+10                랜도 칼리시안                                                            
+11                요다(목소리)              yoda@jedai.com                           
+12                다스 시디어스                                                           
+13                아나킨 스카이워커        Anakin@jedai.com                         
+14                콰이곤 진                                                                
+15                아미달라 여왕                                                            
+16                아나킨 어머니                                                            
+17                자자빙크스(목소리)        jaja@jedai.com                                 
+18                다스 몰                                                                 
+19                장고 펫                                                                 
+20                마스터 윈두              windu@jedai.com                          
+21                듀크 백작                dooku@jedai.com
+
+<<정답>> --------------------------------------------------------------------------------------------------
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 1, '루크 스카이워커','luke@jedai.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 2, '한 솔로', 'solo@alliance.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 3, '레이아 공주', 'leia@alliance.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 4, '오비완 케노비', 'Obi-Wan@jedai.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 5, '다쓰 베이더', 'vader@sith.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 6, '다쓰 베이더(목소리)', 'vader-voice@alliance.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 7, 'C-3PO', 'c3po@alliance.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 8, 'R2-D2', 'r2d2@alliance.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 9, '츄바카', 'Chewbacca@alliance.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 10, '랜도 칼리시안', 'Chewbacca@alliance.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 11, '요다(목소리)', 'yoda@jedai.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 12, '다스 시디어스', NULL);
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 13, '아나킨 스카이워커', 'Anakin@jedai.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 14, '콰이곤 진', NULL);
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 15, '아미달라 여왕', NULL);
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 16, '아나킨 어머니', NULL);
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 17, '자자빙크스(목소리)', 'jaja@jedai.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 18, '다스 몰', NULL);
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 19, '장고 펫', NULL);
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 20, '마스터 윈두', 'windu@jedai.com');
+
+INSERT INTO CHARACTERS ( CHARACTER_ID, CHARACTER_NAME, EMAIL)
+VALUES ( 21, '듀크 백작', 'dooku@jedai.com');
+
+COMMIT;
+
+6. ROLES 테이블에 다음의 데이터를 저장해보자
+
+ROLE_ID                ROLE_NAME                      
+------------------- ------------------------------ 
+1001                   제다이                         
+1002                   시스                           
+1003                   반란군
+
+<<정답>> --------------------------------------------------------------------------------------------------
+-- ROLES 테이블 생성
+
+CREATE TABLE ROLES (
+   	ROLE_ID   NUMBER(5,0) NOT NULL, 
+	  ROLE_NAME VARCHAR2(30 BYTE), 
+	 CONSTRAINT ROLES_PK PRIMARY KEY (ROLE_ID));
+
+-- DATA INSERT	 
+INSERT INTO ROLES ( ROLE_ID, ROLE_NAME ) VALUES (1001, '제다이');
+INSERT INTO ROLES ( ROLE_ID, ROLE_NAME ) VALUES (1002, '시스');
+INSERT INTO ROLES ( ROLE_ID, ROLE_NAME ) VALUES (1003, '반란군');
+
+COMMIT;
+
+7. CHARACTERS 테이블에는 ROLE_ID 란 컬럼이 있는데, 이 값은 ROLES 테이블의 ROLE_ID 값을 참조한다. 
+CHARACTERS 테이블을 변경하여 ROLE_ID 컬럼이 ROLES 테이블의 ROLE_ID 값을 참조하도록 참조 키를 생성해보자. 
+
+<<정답>> --------------------------------------------------------------------------------------------------
+
+ALTER TABLE CHARACTERS 
+ADD CONSTRAINT CHARACTERS_FK FOREIGN KEY ( ROLE_ID )
+    REFERENCES ROLES ( ROLE_ID );
+
+8. 참조 키를 생성했으면, 다음으로 CHARACTERS 테이블의 ROLE_ID 값을 변경해보자. 
+값의 참조는 ROLES 테이블의 ROLE_ID 값을 참조한다. 예를 들면 루크 스카이워커, 오비완 캐노비, 요다 등은 제다이 기사이므로 1001 값을 가질 것이며, 
+다쓰 베이더, 다쓰 몰은 시스 족이므로 1002에 해당한다. 자신이 아는 범위 내에서 이 값을 갱신하는 UPDATE 문장을 작성해 보자.
+
+<<정답>> --------------------------------------------------------------------------------------------------
+
+UPDATE CHARACTERS
+   SET ROLE_ID = 1001
+ WHERE CHARACTER_ID IN ( 1, 4, 11, 13, 14, 20, 21);
+ 
+UPDATE CHARACTERS
+   SET ROLE_ID = 1002
+ WHERE CHARACTER_ID IN ( 5, 6, 12, 18 );
+ 
+UPDATE CHARACTERS
+   SET ROLE_ID = 1003
+ WHERE CHARACTER_ID IN (2, 3, 7, 8, 9); 
+ 
+COMMIT;
+
+9. CHARACTERS 테이블에는 MASTER_ID 란 컬럼이 있는데, 이 컬럼의 용도는 EMPLOYEES 테이블의 MANAGER_ID 와 그 역할이 같다. 
+즉 제다이나 시스에 속하는 인물 중 그 마스터의 CHARACTER_ID 값을 찾아 이 컬럼에 갱신하는 문장을 작성해 보자. 
+
+제자                    마스터
+------------------  -------------------------
+아나킨 스카이워커      오비완 캐노비
+루크 스카이워크        오비완 캐노비
+마스터 윈두            요다
+듀크 백작              요다
+다쓰 베이더            다쓰 시디어스
+다쓰 몰                다쓰 시디어스
+오비완 캐노비          콰이곤 진
+콰이곤 진              듀크 백작
+
+<<정답>> --------------------------------------------------------------------------------------------------
+
+UPDATE CHARACTERS
+   SET MASTER_ID = 4
+ WHERE CHARACTER_ID = 13;
+ 
+UPDATE CHARACTERS
+   SET MASTER_ID = 4
+ WHERE CHARACTER_ID = 1;
+ 
+UPDATE CHARACTERS
+   SET MASTER_ID = 11
+ WHERE CHARACTER_ID = 20; 
+ 
+UPDATE CHARACTERS
+   SET MASTER_ID = 11
+ WHERE CHARACTER_ID = 21;  
+ 
+UPDATE CHARACTERS
+   SET MASTER_ID = 12
+ WHERE CHARACTER_ID = 5;  
+
+UPDATE CHARACTERS
+   SET MASTER_ID = 12
+ WHERE CHARACTER_ID = 18;  
+ 
+UPDATE CHARACTERS
+   SET MASTER_ID = 14
+ WHERE CHARACTER_ID = 4;  
+ 
+UPDATE CHARACTERS
+   SET MASTER_ID = 21
+ WHERE CHARACTER_ID = 14;  
+
+COMMIT;
+
+10. CASTING 테이블의 기본 키는 EPISODE_ID와 CHARACTER_ID 이다. 이 두 컬럼은 각각 STAR_WARS와 CHARACTERS 테이블의 기본 키를 참조하고 있다. 
+CASTING 테이블에 각각 이 두 테이블의 컬럼을 참조하도록 참조 키를 생성해 보자. 
+
+<<정답>> --------------------------------------------------------------------------------------------------
+-- STAR_WARS 
+ALTER TABLE CASTING 
+ADD CONSTRAINT CASTING_FK1 FOREIGN KEY ( EPISODE_ID )
+    REFERENCES STAR_WARS ( EPISODE_ID );
+    
+-- CHARACTERS
+
+ALTER TABLE CASTING 
+ADD CONSTRAINT CASTING_FK2 FOREIGN KEY ( CHARACTER_ID )
+    REFERENCES CHARACTERS ( CHARACTER_ID );
+        
+        
+        
+-----------------------------------------------------------------------------------------------------------
+
+11. 다음 문장을 실행해 보자. 
+
+DELETE ROLES
+ WHERE ROLE_ID = 1001;
+
+이 문장을 실행하면 그 결과는 어떻게 되는가? 또한 그러한 결과가 나오는 이유는 무엇인지 설명해 보자. 
+
+<<정답>> --------------------------------------------------------------------------------------------------
+7 번 문제에서 CHARACTERS 테이블에서 참조 키(foreign key)를 생성했기 때문에 삭제할 수 없다. 
+만약 삭제를 시도하면 무결성 제약조건(HR.CHARACTERS_FK)을 위배했다는 오류가 난다. 
+
+이러한 현상에도 불구하고 삭제를 꼭 해야 한다면, CHARACTERS 테이블에 만들어진 foreign key를 삭제하거나
+임시로 foreign key의 상태를 disable 로 한 뒤, 삭제할 수 있다. 
+
+(1) foreign key 삭제
+    ALTER TABLE CHARACTERS 
+    DROP CONSTRAINT CHARACTERS_FK;
+    
+(2) foreign key 의 상태를 disable 상태로...
+    ALTER TABLE CHARACTERS 
+    MODIFY CONSTRAINT CHARACTERS_FK DISABLE;
+

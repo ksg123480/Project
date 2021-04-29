@@ -1,0 +1,35 @@
+오라클설치(DBMS의 일종)
+1) 오라클서버 : 서비스 프로그램(눈에 안보이는 프로세스)
+2) 관련 유틸리티(오라클접속클라이언트/설정...)
+
+!-- sqlplus : 콘솔기반의 오라클 접속 클라이언트-sqlplus --!
+실행방법 : 1. cmd 명령을 통해 생성된 명령프롬트창에서 sqlplus 실행
+               2. sqlplus 콘솔프로그램 바로 실행
+
+!-- sql developter : gui 기반의  dbms 접속 클라이언트 --!
+
+1. 계정생성을 위한 접속
+ 재접속  conn system / 1111;
+
+   disconnect 접속해제
+
+2. 계정생성
+    create user c##ccm identified by 1111;
+
+3. 권한 부여
+   grant connect, resource, dba to c##ccm;
+
+==============================
+
+4. 접속test
+   conn c##ccm/1111;
+
+5. sample 테이블 추가 
+  @ 파일드래그
+
+  
+6. 테이블 체크(테이블 스키마)
+   desc 테이블명;
+
+  --  BONUS / EMP / DEPT  /SALGRADE --
+

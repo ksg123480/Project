@@ -1,0 +1,204 @@
+//=============회원테이블
+CREATE TABLE Member(
+id VARCHAR2(20) ,
+pw VARCHAR2(20) NOT NULL,
+CHECK(LENGTH(PW)>3),
+name VARCHAR2(20) NOT NULL,
+phone VARCHAR2(20),
+CONSTRAINT Member_PK PRIMARY KEY (id));
+
+//===================계좌타입테이블
+CREATE TABLE AccountType(
+TYPEID NUMBER NOT NULL,
+NAME VARCHAR2(20),
+CONSTRAINT AccountType_PK PRIMARY KEY (TYPEID));
+
+CREATE SEQUENCE seq_typeid
+MINVALUE 1 
+MAXVALUE 999999999999999999999999999
+INCREMENT BY 1 
+START WITH 1
+NOCACHE  
+NOORDER  
+NOCYCLE;
+
+SELECT 
+
+//================계좌테이블
+CREATE TABLE Account(
+accid NUMBER NOT NULL,
+balance NUMBER DEFAULT 0 CHECK(balance>0),
+typeid NUMBER,
+CONSTRAINT Account_PK PRIMARY KEY (accid),
+CONSTRAINT Account_FK FOREIGN KEY (typeid)
+REFERENCES AccountType (typeid));
+
+CREATE SEQUENCE seq_accid
+MINVALUE 1000
+MAXVALUE 99999999999999999
+INCREMENT BY 10
+START WITH 1000
+NOCACHE
+NOORDER
+NOCYCLE ;
+
+//==============계좌개설 테이블
+CREATE TABLE AccountInfo(
+infoid NUMBER NOT NULL,
+id VARCHAR2(20),
+accid NUMBER,
+newdate DATE  default sysdate NOT NULL,
+CONSTRAINT AccountInfo_PK PRIMARY KEY (infoid));
+
+ALTER TABLE Accountinfo
+ADD CONSTRAINT  AccountInfo_FK FOREIGN KEY(id)
+REFERENCES Member(id);
+
+ALTER TABLE Accountinfo
+ADD CONSTRAINT  AccountInfo_FK2 FOREIGN KEY(accid)
+REFERENCES Account(accid);
+
+
+
+
+CREATE SEQUENCE seq_infoid
+MINVALUE 1
+MAXVALUE 99999999999999999
+INCREMENT BY 1
+START WITH 1
+NOCACHE
+NOORDER
+NOCYCLE ;
+
+
+//==============거래테이블
+CREATE TABLE AccIO(
+ACCIOID NUMBER ,
+ACCID NUMBER,
+INPUT NUMBER DEFAULT 0,
+OUTPUT NUMBER DEFAULT 0,
+BALANCE NUMBER,
+newdate DATE  default sysdate NOT NULL);
+
+ALTER TABLE AccIO
+ADD CONSTRAINT  AccIO_FK FOREIGN KEY(accid)
+REFERENCES Account(accid);
+
+1.회원 가입기능(아이디, 비밀번호, 회원명, 전화번호 사용)
+insert into Member ( ID ,PW ,NAME , PHONE)
+values('KWON' , '1231', '권순건', '01012344567');
+
+2.회원 검색기능(회원번호를 전달하면 비밀번호를 제외한 회원 전체 정보 반환)
+select m.id,m.name,m.phone
+from member m
+where m.id ='KWON';
+
+3.회원 검색기능(저장된 모든 회원의 아이디 반환)
+select m.id
+from member m;
+
+4.회원 삭제기능(아이디로 회원정보 삭제)
+delete
+from member
+where id = 'KWON';
+
+5.회원 수정기능(아이디, 새로운 전화번호를 전달하면 해당 아이디에 해당하는 전화번호 수정)
+update Member
+set phone = '12345678912'
+where id = 'KWON';
+
+6.계좌 저장기능(이름 사용)
+INSERT INTO AccountType(TYPEID,NAME)
+VALUES(seq_typeid.nextval,'일반계좌');
+
+INSERT INTO AccountType(TYPEID,NAME)
+VALUES(seq_typeid.nextval,'신용계좌');
+
+INSERT INTO AccountType(TYPEID,NAME)
+VALUES(seq_typeid.nextval,'기부계좌');
+
+7.계좌 정보 전체 출력 기능(계좌타입번호, 이름)
+select *
+from AccountType;
+
+8.검색기능(계좌타입번호 전달, 이름 반환)
+select name
+from AccountType
+where typeid = 1;
+
+9. 검색기능(이름전달, 계좌타입번호 반환)
+select typeid
+from AccountType
+where name = '일반계좌';
+
+10.입력기능(잔액, 계좌종류 사용)
+INSERT INTO Account(accid,balance,typeid)
+VALUES(seq_accid.nextval,5000,1);
+
+INSERT INTO Account(accid,balance,typeid)
+VALUES(seq_accid.nextval,500,2);
+
+11.검색기능(계좌번호 전달하면 해당 계좌의 모든 정보 반환)
+select *
+from Account
+where accid =1500;
+
+12.검색기능(계좌테이블에 저장된 모든 계좌번호 반환)
+select accid
+from Account;
+
+13.검색기능(저장된 계좌테이블에 잔액이 0인 계좌의 계좌번호반환)
+select accid
+from Account
+where balance =0;
+
+14. 검색기능(계좌번호를 전달하면 해당 계좌의 잔액 반환)
+select balance
+from Account
+where accid =1500;
+
+15.입력기능(아이디, 계좌번호 사용, 개설일 자동 할당)
+INSERT INTO AccountInfo(infoid,id,accid,newdate)
+VALUES(seq_infoid.nextval,'Kim',1500,sysdate);
+
+16.검색기능(아이디입력시 그 아이디로 만들어진 모든 계좌정보 반환)
+sleelct *
+from AccountInfo
+where id = 'KWON';
+
+17.검색기능(계좌번호 입력시 그 계좌번호의 모든 정보 반환)
+select *
+from AccountInfo
+where accid = 1500;
+
+18. 회원id를 입력하면 그 회원의 모든 계좌정보 반환(회원id, 계좌번호, 잔액, 계좌정보(일반계좌.등등), 계좌개설일
+select  m.id,a.accid,a.balance,t.namei.newdate
+from member m, account a, accounttype t, accountinfo i
+where m.id = 'KWON';
+19. 회원id를 입력하면 그 회원이 개설한 계좌의 갯수를 반환
+select count(infoid)
+from AccountInfo
+where id = 'KWON';
+20. 입금 거래 발생시 거래테이블에 정보 저장(입금시-계좌번호, 입금액-입금이 된후잔액전달)
+INSERT INTO AccIO
+VALUES (seq_Accioid.nextval,1010,1000,NULL,
+(SELECT Balance 
+FROM Account 
+WHERE Accid = 1500)+1000,sysdate);
+
+21. 출금 거래 발생시 거래테이블에 정보 저장(출금시-계좌번호, 출금액-출금후 잔액전달)
+INSERT INTO AccIO ( Accioid, Accid, Output, Balance, dt)
+VALUES(seq_accioid.nextval, 1500, 2000, 1000, sysdate);
+
+22. 계좌 개설시 거래테이블에 입금정보 추가 
+NSERT INTO AccIO(Accioid, Accid, Balance, dt)
+VALUES(seq_accioid.nextval,
+(SELECT Accid FROM Accountinfo WHERE Accid = '1210'),
+(SELECT Balance FROM Account WHERE Accid = '1210'),
+(SELECT Newdate FROM Accountinfo WHERE Accid = '1210')
+ );
+23. 계좌번호를 입력하면 해당 계좌의 거래 리스트를 반환
+select *
+from AccIO
+where = 1500;
+

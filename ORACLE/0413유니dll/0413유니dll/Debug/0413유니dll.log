@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  dllmain.cpp
+  wbsock.cpp
+  코드를 생성하고 있습니다...
+     C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\ORACLE\0413유니dll\Debug\0413유니dll.lib 라이브러리 및 C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\ORACLE\0413유니dll\Debug\0413유니dll.exp 개체를 생성하고 있습니다.
+LINK : warning LNK4232: 0413유니dll.dll 이름에 ASCII 문자가 아닌 문자가 들어 있습니다. 949 이외의 ANSI 코드 페이지가 있는 시스템에서 DLL이 로드되지 않을 수도 있습니다.
+  0413유니dll.vcxproj -> C:\Users\ksg12\OneDrive\Desktop\순건\비트 고급\ORACLE\0413유니dll\Debug\0413유니dll.dll
